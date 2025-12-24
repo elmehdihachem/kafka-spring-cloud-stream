@@ -1,0 +1,8 @@
+package ma.emsi.kafkaspringcloudstream.events;
+
+import lombok.Data;
+
+import java.util.Date;
+
+public record PageEvent(String name, String user, Date date,long duration) {
+}
